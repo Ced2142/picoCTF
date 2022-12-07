@@ -2,9 +2,11 @@ from dictionary import *
 hexList=[]
 hex2List=[]
 lower=[]
+# Function used to read the data.txt file
 with open('data.txt', 'r') as file:         #Read each line of data.txt pulled from data.pcap and append to hex2List
     for line in file:
         hex2List.append(line)
+
 
 
 for data in hex2List:
